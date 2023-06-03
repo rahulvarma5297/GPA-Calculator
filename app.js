@@ -66,6 +66,7 @@ groupList.addEventListener("click", (e) => {
     let course = `<li class="item" id="item-0">
         <input type="text" placeholder="Course name" class="item__name">
         <select name="" id="itemSelect-0" class="item__select">
+          <option value="0" selected>Grade</option>
           <option value="10">O</option>
           <option value="9">A</option>
           <option value="8">B</option>
@@ -74,10 +75,11 @@ groupList.addEventListener("click", (e) => {
           <option value="5">E</option>
         </select>
         <select name="" id="itemSelect-0" class="item__value">
+          <option value="0" selected>Credit</option>
           <option value="1">1</option>
           <option value="2">2</option>
           <option value="3">3</option>
-          <option value="4" selected>4</option>
+          <option value="4">4</option>
         </select>
         <button class="remove removeItem"><i class="fas fa-trash-alt"></i></button>
         </li>`;
@@ -111,6 +113,7 @@ function newSemester(btn, inputs) {
             <li class="item" id="item-0">
                 <input type="text" placeholder="Course name" class="item__name">
                 <select name="" id="itemSelect-0" class="item__select">
+                  <option value="0" selected>Grade</option>
                   <option value="10">O</option>
                   <option value="9">A</option>
                   <option value="8">B</option>
@@ -119,10 +122,11 @@ function newSemester(btn, inputs) {
                   <option value="5">E</option>
                 </select>
                 <select name="" id="itemSelect-0" class="item__value">
+                  <option value="0" selected>Credit</option>
                   <option value="1">1</option>
                   <option value="2">2</option>
                   <option value="3">3</option>
-                  <option value="4" selected>4</option>
+                  <option value="4">4</option>
                 </select>
                 <button class="remove removeItem"><i class="fas fa-trash-alt"></i></button>
             </li>
